@@ -11,6 +11,7 @@ local TweenService = game:GetService("TweenService")
 local Player = Players.LocalPlayer
 local Character = Player.Character or Player.CharacterAdded:Wait()
 local HumanoidRootPart = Character:WaitForChild("HumanoidRootPart")
+local Humanoid = Character:WaitForChild("Humanoid")
 
 local Dependencies = {
     Variables = {
