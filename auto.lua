@@ -238,3 +238,5 @@ local function Teleport(cframe, tried)
 end
 
 return Teleport
+
+print("loaded")
